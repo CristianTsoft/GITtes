@@ -1,0 +1,35 @@
+mkdir <name> 	| Crear carpetas nuevas
+touch <name> 	| Crear archivos ."estencion" ej "notas.txt"
+dir 		| Muestran los archivos y carpetas dentro
+
+git init 	| crear o iniciar un repositorio dentro de la carpeta.
+
+git add <name del archivo> 	|Trakea los archivos, y los deja en modo espera para hacer un commit
+git add . | Agrega todos los archivos o -A
+git add *.extencion | Agrega todos los archivos con dicha extencion
+git add "carpeta/" | Agrega a la carpeta
+
+
+git rm --cached <name del archivo> | " Des trakea el archivo, vuelve un paso atras"
+
+.gitignore |Nos permite ignorar los archivos que no queremos
+
+
+
+git commit <name de archivo> "Comentario" | "Se refiere a un punto en la linea de tiempo" 
+
+git commit -m "Comentario"
+
+git log |git log --oneline | git log --graph | para ver la linea del tiempo del proyecto
+
+git push -u origin | Nos termite enviar los datos que fueron enviados (commit) al repositorio.
+
+git remote add origin "URL del repositorio remoto" | Agregar el lugar el lugar de trabajo remoto
+
+git branch -M "nuevo nombre" | Permite cambiar el nombre del branch
+
+git restore --stage "fichero" | Volver atras un paso
+
+git checkout "nombre de la rama" | Para cambiarse de rama
+
+git checkout -b "nombre de la rama" | Para crear una nueva rama
