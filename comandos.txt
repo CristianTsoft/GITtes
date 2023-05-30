@@ -33,3 +33,6 @@ git restore --stage "fichero" | Volver atras un paso
 git checkout "nombre de la rama" | Para cambiarse de rama
 
 git checkout -b "nombre de la rama" | Para crear una nueva rama
+
+---------
+git clone (URL del repositorio) -> para clonar el repositorio remoto a mi computadora local.
