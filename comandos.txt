@@ -36,3 +36,7 @@ git checkout -b "nombre de la rama" | Para crear una nueva rama
 
 ---------
 git clone (URL del repositorio) -> para clonar el repositorio remoto a mi computadora local.
+
+git remote add upstream (url) | Sirve para subir la rama de manera remoto
+
+git fetch upstream
