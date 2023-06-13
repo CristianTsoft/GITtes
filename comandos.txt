@@ -40,3 +40,11 @@ git clone (URL del repositorio) -> para clonar el repositorio remoto a mi comput
 git remote add upstream (url) | Sirve para subir la rama de manera remoto
 
 git fetch upstream
+
+git remote add "Un nombre para colocarle al clon" <URL del repositorio> 
+
+git remote remove 
+
+git remote -v | Para ver los repositirios 
+
+git commit --amend -m "Nuevo mensaje"
